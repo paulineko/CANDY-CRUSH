@@ -6,12 +6,12 @@ document.addEventListener('DOMContentLoaded', () => {
     let score = 0
 
     const candyColors = [
-        'url(images/red-candy.png)',
-        'url(images/yellow-candy.png)',
-        'url(images/orange-candy.png)',
-        'url(images/purple-candy.png)',
-        'url(images/green-candy.png)',
-        'url(images/blue-candy.png)'
+        'url(images/1.png)',
+        'url(images/2.png)',
+        'url(images/3.png)',
+        'url(images/4.png)',
+        'url(images/5.png)',
+        'url(images/6.png)'
     ]
 
     //create board
