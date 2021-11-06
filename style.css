@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('https://krot.info/uploads/posts/2021-01/1610234801_3-p-multyashnii-zadnii-fon-6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.grid {
+    height: 560px;
+    width: 560px;
+    display: flex;
+    flex-wrap: wrap;
+    background: rgba(0,0,0,0.7);
+    padding: 5px;
+    border-radius: 8px;
+}
+.grid div {
+    height: 70px;
+    width: 70px;
+}
+.score-board{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    background: #ff8cd1;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    font-family: sans-serif;
+    width: 140px;
+    color: #f1f1f1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) inset, 0 2px 0 rgb(152, 151, 151);  
+}
+h3{
+    margin-right: 15px;
+    font-size: 20px;
+}
+h1{
+    font-size: 25px;  
+}
